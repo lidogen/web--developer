@@ -756,3 +756,59 @@ footer p {
 .social_network {
 	display: flex;
 }
+
+
+
+
+/* -------вторая страница сайтв----- */
+
+
+
+
+.gallery-products-wreper {
+	display: flex;
+}
+.sidebar {
+	width: 243px;
+    margin-right: 34px;
+}
+.Category {
+	border-bottom: 1px solid #ebebeb;
+	width: 243px;
+	border-left: 5px solid #ef5b70;
+	height: 37px;
+    margin-bottom: 18px;
+}
+.Category summary {
+	padding-left: 11px;
+    line-height: 38px;
+	color: #6f6e6e;
+    font-size: 14px;
+    font-weight: 700;
+    text-transform: uppercase;
+}
+.Category summary:focus {
+	color: #ef5b70;
+}
+.gallery-products {
+	display: flex;
+    flex-wrap: wrap;
+    margin-top: 52px;
+    width: 879px;
+}
+.gallery-2-title h2{
+	color: #222222;
+    font-size: 30px;
+    font-weight: 700;
+    line-height: 30px;
+    letter-spacing: 0.75px;
+    text-align: center;
+}
+.gallery-2-title .p_2 {
+	color: #9f9f9f;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 30px;
+    letter-spacing: 0.35px;
+    text-align: center;
+}
