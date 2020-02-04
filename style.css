@@ -110,6 +110,7 @@ ul {
 	background-color: #ffffff;
 	position: absolute;
     top: 36px;
+	z-index: 5;
 }
 .drop-menu {
 	display: none;
@@ -119,6 +120,7 @@ ul {
 	border-radius: 5px;
 	background-color: #ffffff;
 	position: absolute;
+	z-index: 3;
 }
 .tail {
 	margin-right: 161px;
@@ -186,6 +188,7 @@ ul {
     padding-left: 16px;
     border: none;
     padding-right: 16px;
+	outline: none;
 }
 .header__browse h2 {
 	padding-top: 3px;
@@ -850,9 +853,13 @@ footer p {
 	color: #ef5b70;
 	font-size: 16px;
 	font-weight: bold;
-line-height: 26px;
+	line-height: 26px;
 }
+
+.View_All:hover {
+	cursor: pointer;
 }
+
 .sidebar {
 	width: 243px;
     margin-right: 34px;
@@ -1128,6 +1135,17 @@ line-height: 26px;
 .product_discript-select-wreper {
     margin: 35px 0px;
 }
+.product_discript-select-wreper input{
+	width: 114px;
+    height: 35px;
+    border: 1px solid #eaeaea;
+    padding: 0px 15px;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 24px;
+    color: #bcbcbc;
+	outline: none;
+}
 .product_discript-form-mr{
 	margin: 0px 53px;
 }
@@ -1167,8 +1185,18 @@ line-height: 26px;
 	font-size: 16px;
 	font-weight: bold;
 	line-height: 26px;
+	display: flex;
+    align-items: center;
+    justify-content: center;
 }
 
+.btn-single-page img
+{
+	color: #ef5b70;
+}
 
+.btn-single-page:hover {
+	cursor: pointer;
+}
 
 /* ---------страница шопинг-карт--------- */

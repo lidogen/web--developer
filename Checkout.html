@@ -4,7 +4,7 @@
 	<meta charset="UTF-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
 	<meta http-equiv="X-UA-Compatible" content="ie=edge">
-	<title>Shopping Cart</title>
+	<title>Checkout</title>
 	<link href="https://fonts.googleapis.com/css?family=Lato:100,300,400,700,900&display=swap" rel="stylesheet">
 	<link rel="stylesheet" href="Checkout-style.css">
 </head>
@@ -13,12 +13,12 @@
 	<header class="header center">
 		<div class="header__left">
 			<div class="wrep-logo">
-				<a href="" class="logo">
-					<img class="logo__img" src="img/18.png" alt="logo">BRAND
+				<a href="index.html" class="logo">
+					<img class="logo__img" src="img/18.png" alt="logo">
+					<div class="header__browse">
+						<h2>BRAN<span>D</span></h2>
+					</div>
 				</a>
-				<div class="header__browse">
-					<h2>BRAN<span>D</span></h2>
-				</div>
 			</div>
 			<form class="header__form" action="#">
 				<details>
@@ -329,43 +329,46 @@
 		</div>
 	</div>
 	<section>
-		<div class="shipping-adress center">
+		<div class="shopping_cart center">
+		<div class="shipping-adress ">
 			<h2 class="shipping-adress__blockName">01.   Shipping Adress</h2>
 			<div class="shipping-adress__checkout">
 				<h2>Check as a guest or register</h2>
 				<p>Register with us for future convenience</p>
-				<div class="shipping-adress__checkout_Pcheckbox">
-					<input type="radio" name="" value="register">
-					<p>checkout as guest</p>
-				</div>
-				<div class="shipping-adress__checkout_Pcheckbox">
-					<input type="radio" name="" value="register">
-					<p>register</p>
+				<div class="shipping-adress__checkout_wreper">
+					<div class="shipping-adress__checkout_Pcheckbox">
+						<input type="radio" name="" value="register">
+						<p>checkout as guest</p>
+					</div>
+					<div class="shipping-adress__checkout_Pcheckbox">
+						<input type="radio" name="" value="register">
+						<p>register</p>
+					</div>
 				</div>
 				<h2>register and save time!</h2>
 				<p>Register with us for future convenience</p>
 				<br>
 				<p><i class="fas fa-angle-double-right"></i>Fast and easy checkout</p>
 				<p><i class="fas fa-angle-double-right"></i>Easy access to your order history and status</p>
-				<input class="shipping-adress__btn" type="submit" name="" value="Continue">
+				<input class="shipping-adress__btn rotate" type="submit" name="" value="Continue">
 			</div>
 			<div class="shipping-adress__checkout registed">
 				<h2>Already registed?</h2>
-				<p>Please log in below<i class="fas fa-asterisk"></i></p>
-				<h3>EMAIL ADDRESS</h3>
-				<input type="email" name="" value="">
-				<h3>PASSWORD<i class="fas fa-asterisk"></i></h3>
-				<input type="password" name="" value="">
-				<h2><i class="fas fa-asterisk"></i>Required Fileds</h2>
+				<p>Please log in below</p>
+				<h3>EMAIL ADDRESS<span>*</span></h3>
+				<input class="shipping-adress__checkout_inp" type="email" name="" value="">
+				<h3>PASSWORD<span>*</span></h3>
+				<input class="shipping-adress__checkout_inp" type="password" name="" value="">
+				<div class="registed_red">
+					* Required Fileds
+				</div>
 				<div class="shipping-adress__btn_flex">
-					<input class="shipping-adress__btn" type="submit" name="" value="Log in">
+					<input class="shipping-adress__btn transform" type="submit" name="" value="Log in">
 					<h2>Forgot Password ?</h2>
 				</div>
 			</div>
 		</div>
-	</section>
-	<section>
-		<div class="shopping_cart center">
+
 			<div class="shipping-adress__line "></div>
 			<div class="shipping-adress__clouz ">
 				<h2 class="shipping-adress__blockName">02.   BILLING INFORMATION</h2>
@@ -423,12 +426,12 @@
 		<section class="company-inform center">
 			<div class="company-inform-logo">
 				<div class="wrep-logo">
-					<a href="" class="logo">
-						<img class="logo__img" src="img/18.png" alt="logo">BRAND
+					<a href="index.html" class="logo">
+						<img class="logo__img" src="img/18.png" alt="logo">
+						<div class="header__browse">
+							<h2>BRAN<span>D</span></h2>
+						</div>
 					</a>
-					<div class="header__browse">
-						<h2>BRAN<span>D</span></h2>
-					</div>
 				</div>
 				<article class="company-inform-logo-text">
 					<p>Objectively transition extensive data rather than cross functional solutions. Monotonectally syndicate multidisciplinary materials before go forward benefits. Intrinsicly syndicate an expanded array of processes and cross-unit partnerships. </p>
