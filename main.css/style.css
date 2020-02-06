@@ -246,7 +246,7 @@ ul {
     display: flex;
     align-items: center;
     height: 614px;
-    background-image: url(img/promo_back.png);
+    background-image: url(../img/promo_back.png);
     background-repeat: no-repeat;
     background-position: center -51px;
 }
@@ -296,25 +296,25 @@ ul {
     justify-content: space-between;
 }
 .for-img-30 {
-	background-image: url(img/Layer_30.png);
+	background-image: url(../img/Layer_30.png);
 	width: 560px;
 	height: 542px;
 	position: relative;
 }
 .for-img-32 {
-	background-image: url(img/Layer_32.png);
+	background-image: url(../img/Layer_32.png);
 	width: 560px;
 	height: 261px;
 	position: relative;
 }
 .for-img-37 {
-	background-image: url(img/Layer_37.png);
+	background-image: url(../img/Layer_37.png);
 	width: 560px;
 	height: 261px;
 	position: relative;
 }
 .for-img-31 {
-	background-image: url(img/Layer_31.png);
+	background-image: url(../img/Layer_31.png);
 	width: 560px;
 	height: 542px;
 	position: relative;
@@ -469,7 +469,7 @@ ul {
 	margin-bottom: 97px;
 }
 .block-offer-img {
-	background-image: url(img/Layer_38.png);
+	background-image: url(../img/Layer_38.png);
 	z-index: 1;
 	width: 767px;
     height: 529px;
@@ -537,7 +537,7 @@ ul {
 /* нижняя форма */
 .substrate-form {
 	height: 438px;
-	background-image: url(img/Layer_41.png);
+	background-image: url(../img/Layer_41.png);
 	opacity: 0.5;
 	display: flex;
 	margin-bottom: 109px;
@@ -640,13 +640,13 @@ ul {
 	/* line-height: 24px; */
 }
 .bottom__form input {
-	width: 334px;
+	width: 256px;
     height: 46px;
     border-radius: 23px;
     background-color: #e1e1e1;
     border: none;
-    padding: 0 16px;
-	position: relative;
+    padding: 0 114px 0px 16px;
+    position: relative;
 }
 .bottom__form input:focus {
     outline: none;
@@ -661,7 +661,7 @@ ul {
     height: 46px;
     border-radius: 0 23px 23px 0;
     background-color: #f16d7f;
-    left: 327px;
+    left: 338px;
     text-align: center;
 }
 /* блок перед футером */
